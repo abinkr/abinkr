@@ -5,8 +5,166 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>ABIN K R OFFICIAL SITE...</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     </head>
+
     <body>
+
+        <section>
+            <div class="row1">
+                <div class="left">
+                    <div class="profile"></div>
+                    <div class="content">
+                        <h1>ABIN K R</h1>
+                        <p>Student</p>
+                        <p>From India</p>
+                        <p>Loc : Kerala</p>
+                        <p>I received my first breath in Sep 11th</p>
+                    </div>
+                    <div class="auto-text">
+                        <p>I'M <span class="sec-text"></span></p>
+                    </div>
+                    <div class="button-div">
+                        <button onclick="mapButton()"><p>See map</p> <span></span></button>
+                        <a href="img/profile-img.jpg" download="png"><button>Download CV</button></a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="left-box">
+                        <div class="insta" onclick="instagram()">
+                            <div class="icon">
+                                <i id="instaIconEdit" class="fa-brands fa-instagram"></i>
+                                <i id="linkIconEdit" class="fa-solid fa-door-open"></i>
+                            </div>
+                            <div class="content">
+                                <p>Instagram</p>
+                                <span>@akr56____</span>
+                            </div>
+                        </div>
+                        <div class="linkedin" onclick="linkedin()">
+                            <div class="icon">
+                                <i id="linkedinEdit" class="fa-brands fa-linkedin-in"></i>
+                                <i id="linkIconEdit" class="fa-solid fa-door-open"></i>
+                            </div>
+                            <div class="content">
+                                <p>Linkedin</p>
+                                <span>@akr56____</span>
+                            </div>
+                        </div>
+                        <div class="thre-drib-flex">
+                            <div class="threads" onclick="threads()">
+                                <div class="icon">
+                                    <img id="threadsEdit" src="img/Threads.png">
+                                    <i id="linkIconEdit" class="fa-solid fa-door-open"></i>
+                                </div>
+                                <div class="content">
+                                    <p>Threads</p>
+                                    <span>@akr56____</span>
+                                </div>
+                            </div>
+                            <div class="dribbble" onclick="dribbble()">
+                                <div class="icon">
+                                    <i id="dribbbleEdit" class="fa-brands fa-dribbble"></i>
+                                    <i id="linkIconEdit" class="fa-solid fa-door-open"></i>
+                                </div>
+                                <div class="content">
+                                    <p>Dribbble</p>
+                                    <span>@akr56____</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map">
+                            <iframe width="100%" height="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.64717860514!2d76.55011549999999!3d11.065057000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba88734dc53a6b7%3A0xf35d86a105149106!2sKakkuppadi!5e0!3m2!1sen!2sin!4v1690039444083!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <!-------------------->
+                    <div class="right-box">
+                        <div class="emai-behan-flex">
+                            <div class="email" onclick="email()">
+                                <div class="icon">
+                                    <i id="emailEdit" class="fa-solid fa-envelope"></i>
+                                    <i id="linkIconEdit" class="fa-solid fa-door-open"></i>
+                                </div>
+                                <div class="content">
+                                    <p>Email</p>
+                                    <span>@akr2647@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="behance" onclick="behance()">
+                                <div class="icon">
+                                    <i id="behanceEdit" class="fa-brands fa-behance"></i>
+                                    <i id="linkIconEdit" class="fa-solid fa-door-open"></i>
+                                </div>
+                                <div class="content">
+                                    <p>Behance</p>
+                                    <span>@akr56____</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fig-gum-you-flex">
+                            <div class="figma" onclick="figma()">
+                                <div class="icon">
+                                    <img id="figmaEdit" src="img/figma-Icon.png">
+                                    <i id="linkIconEdit" class="fa-solid fa-door-open"></i>
+                                </div>
+                                <div class="content">
+                                    <p>Figma</p>
+                                    <span>@akr56____</span>
+                                </div>
+                            </div>
+                            <div class="gum-you-flex">
+                                <div class="gumroad" onclick="gumroad()">
+                                    <div class="icon">
+                                        <i id="gumroadEdit" class="fa-brands fa-google"></i>
+                                        <i id="linkIconEdit" class="fa-solid fa-door-open"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p>Gumroad</p>
+                                        <span>@akr56____</span>
+                                    </div>
+                                </div>
+                                <div class="youtube" onclick="youtube()">
+                                    <div class="icon">
+                                        <i id="youtubeEdit" class="fa-brands fa-youtube"></i>
+                                        <i id="linkIconEdit" class="fa-solid fa-door-open"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p>Youtube</p>
+                                        <span>@akr56____</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="disc-spoti-flex">
+                            <div class="discord" onclick="discord()">
+                                <div class="icon">
+                                    <i id="discordEdit" class="fa-brands fa-discord"></i>
+                                    <i id="linkIconEdit" class="fa-solid fa-door-open"></i>
+                                </div>
+                                <div class="content">
+                                    <p>discord</p>
+                                    <span>@akr56____</span>
+                                </div>
+                            </div>
+                            <div class="spotify" onclick="spotify()">
+                                <div class="icon">
+                                    <i id="spotifyEdit" class="fa-brands fa-spotify"></i>
+                                    <i id="linkIconEdit" class="fa-solid fa-door-open"></i>
+                                </div>
+                                <div class="content">
+                                    <p>Spotify</p>
+                                    <span>@akr56____</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
         <script src="script.js"></script>
     </body>
+
 </html>
