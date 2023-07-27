@@ -24,9 +24,9 @@ var typed = new Typed('.sec-text', {
   {
       window.location.href = "https://www.threads.net/@akr56___";
   }
-  function dribbble()
+  function snapchat()
   {
-      window.location.href = "https://dribbble.com/akr56___";
+      window.location.href = "https://www.snapchat.com/add/abin_kr22751?share_id=5N1KLNt8MRw&locale=en-IN";
   }
   function email()
   {
