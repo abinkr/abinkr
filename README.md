@@ -172,23 +172,6 @@ I'm a passionate **full-stack developer** dedicated to crafting elegant, efficie
 
 ---
 
-## 📊 GitHub Activity & Statistics
-
-<div align="center">
-
-### Contribution Streaks
-![GitHub Streak](https://streak-stats.demolab.com?user=abinkr&theme=modern&background=FFFFFF&border=CCCCCC&stroke=2E2E2E&ring=2E2E2E&fire=FF6B35&currStreakNum=2E2E2E&sideNums=2E2E2E&currStreakLabel=2E2E2E&sideLabels=2E2E2E&dates=2E2E2E&hide_border=false)
-
-### GitHub Statistics
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=abinkr&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=false)
-
-### Top Languages
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abinkr&layout=compact&theme=transparent&hide_border=true)
-
-</div>
-
----
-
 ## 💡 What I'm Currently Doing
 
 <table align="center" style="border: none;">
